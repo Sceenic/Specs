@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
  
  s.homepage = 'https://www.sceenic.co/'
  s.author = { 'Sceenic' => 'support@sceenic.co' }
- s.source           = { :git => "https://github.com/MykolaOm/privatepodinst.git", :tag => s.version }
+ s.source           = { :git => "https://github.com/Sceenic/WatchTogether.git", :tag => s.version }
  
  s.ios.deployment_target = '11.0'
  
