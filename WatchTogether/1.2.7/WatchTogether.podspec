@@ -10,9 +10,6 @@ Pod::Spec.new do |s|
  s.author = { 'Sceenic' => 'support@sceenic.co' }
  s.source           = { :git => "https://github.com/Sceenic/WatchTogether.git", :tag => s.version }
  
- s.dependency 'Starscream'
- s.dependency 'GoogleWebRTC'
- 
  s.vendored_frameworks = 'Frameworks/WatchTogether.framework'
  s.platform = :ios
  s.static_framework = true
