@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
  s.dependency 'Starscream'
  s.dependency 'GoogleWebRTC'
  
- s.vendored_frameworks = 'WatchTogether.framework'
+ s.vendored_frameworks = 'Frameworks/WatchTogether.framework'
  s.platform = :ios
  s.static_framework = true
  
